@@ -6,6 +6,7 @@ error_reporting(E_ALL);
 
 //Require autoload
 require_once('vendor/autoload.php');
+//comment
 
 //Create an instance of the Base class
 $f3 = Base::instance();
@@ -18,7 +19,7 @@ $f3->route('GET /', function() {
     //echo '<h1>Howdy!</h1>';
 
     $view = new View;
-    echo $view->render('views/home.html');
+    echo $view->render('views/home2.html');
 });
 
 //Run fat free
